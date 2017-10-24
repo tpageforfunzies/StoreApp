@@ -50,7 +50,7 @@ li {
 
 }
 
-#middleWindows {
+#productPane {
 	color: black;
 	display: inline;
 	font-size: 2em;
@@ -70,7 +70,19 @@ footer {
 	height: 14%;
 	padding: 30px;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2em;
 
 	
+}
+
+footer ul li::after {
+	content: "| ";
+}
+
+footer ul li:nth-child(1)::before {
+     content: "| ";
+}
+
+footer ul li a{
+	color: #333;
 }
