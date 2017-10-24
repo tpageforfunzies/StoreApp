@@ -40,31 +40,72 @@ li {
 
 #infoSection {
 	color: black;
+	background-color: lightblue;
 	float: left;
 	font-size: 2em;
 	width: 30%;
 	border: 5px solid black;
 	border-radius: 20px;
     padding: 25px;
-    margin: 25px;
+	margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+
 
 }
 
-#productPane {
+.wrapper {
+	margin-top: 25px;
+}
+
+.productPaneLeft {
 	color: black;
-	display: inline;
+	background-color: lightblue;
+	position: relative;
 	font-size: 2em;
-	width: 70%;
+	width: 30%;
 	border: 5px solid black;
 	border-radius: 20px;
     padding: 25px;
-    margin: 25px;
-
+	margin-left: 35%;
+	margin-bottom: 10px;  
 }
+
+.productPaneRight1 {
+	color: black;
+	background-color: lightblue;
+	position: absolute;
+	font-size: 2em;
+	width: 30%;
+	border: 5px solid black;
+	border-radius: 20px;
+    padding: 25px;
+	margin-left: 68%;
+	top: 265px;
+}
+
+.productPaneRight2 {
+	color: black;
+	background-color: lightblue;
+	position: absolute;
+	font-size: 2em;
+	width: 30%;
+	border: 5px solid black;
+	border-radius: 20px;
+    padding: 25px;
+	margin-left: 68%;
+	top: 683px;
+}
+
+.shopLink{
+	float: right;
+	display: inline;
+}
+
 
 footer {
 	position: absolute;
-	bottom: -645px;
+	bottom: -545px;
 	background: grey;
 	width: 100%;
 	height: 14%;
@@ -73,6 +114,16 @@ footer {
 	font-size: 2em;
 
 	
+}
+
+.pictures{
+	position: relative;
+	width: 100%;
+    padding: 1px;
+    margin-bottom: 15px;
+	border-radius: 20px;
+
+
 }
 
 footer ul li::after {
