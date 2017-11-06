@@ -111,7 +111,8 @@ li {
 /*FOOTER, COPYRIGHT AND SOCIAL MEDIA STYLING*/
 footer {
 	position: absolute;
-	bottom: -405px;
+	bottom: -40%;
+
 	background: grey;
 	width: 100%;
 	height: 14%;
